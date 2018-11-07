@@ -1,0 +1,24 @@
+{
+  "name": "NodeDom",
+  "version": "0.0.0",
+  "description": "Proyecto para desarollar un servidor que muestre datos que recoja una Raspberry Pi situada en casa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "body-parser": "^1.5.1",
+    "mongoose": "~5.0.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/estrivela69/ArDom.git"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
+  "author": "Miguel Gomez",
+  "license": "ISC"
+}
